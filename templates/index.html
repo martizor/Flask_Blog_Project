@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<h1>Home Page</h1>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to Martin's Blog Project this is just a simple Blog based application which 
+                was created using Flask
+            </p>
+            <p> Come check out my github profile for more projects <a href = "https://github.com/martizor">GITHUB</a> :)</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">Go to Posts &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
